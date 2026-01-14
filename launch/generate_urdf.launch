@@ -1,4 +1,0 @@
-<launch>
-        <!-- Generate the URDF -->
-        <node name="xacro" pkg="xacro" type="xacro" args="-o $(find phoebe_description)/phoebe.urdf $(find phoebe_description)/phoebe.urdf.xacro" />
-</launch>
